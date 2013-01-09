@@ -13,7 +13,7 @@ void main(void) {		/* main関数 */
 }
 
 int sigma(int x) {
-	int i;
+	int i;			/* 変数i(添え字用)を宣言 */
 	int sum = 0;		/* sumを初期化 */
 
 	if (x > 0) {		/* 1以上のときは加算処理をして合計を求める */
