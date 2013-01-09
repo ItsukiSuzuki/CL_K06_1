@@ -18,7 +18,7 @@ int sigma(int x) {
 
 	if (x > 0) {		/* 1以上のときは加算処理をして合計を求める */
 		for (i = 1; i <= x; i ++) {
-		sum += i;
+		sum += i;		/* 加算処理 */
 		}
 	}
 	return sum;			/* 合計をmain関数に返却する*/
