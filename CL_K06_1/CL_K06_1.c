@@ -5,11 +5,11 @@
 int sigma(int x);		/* プロトタイプ宣言 */
 
 void main(void) {		/* main関数 */
-	int x, answer;
+	int input, answer;
 	printf("合計を求めたい数を入力してください：");
-	scanf("%d", &x);
-	answer = sigma(x);
-	printf("1から%dまでの合計は%dです\n", x, answer);
+	scanf("%d", &input);
+	answer = sigma(input);
+	printf("1から%dまでの合計は%dです\n", input, answer);
 }
 
 int sigma(int x) {
